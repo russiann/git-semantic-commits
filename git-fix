@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ -z "$1" ]
+  then
+    git commit -m 'fix: ' -e
+  else
+    if [ -z "$2" ]
+      then
+        git commit -m "fix: $1"
+      else
+        echo "fix($1): $2"
+        git commit -m "fix($1): $2"
+    fi
+fi

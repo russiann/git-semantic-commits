@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ -z "$1" ]
+  then
+    git commit -m 'test: ' -e
+  else
+    if [ -z "$2" ]
+      then
+        git commit -m "test: $1"
+      else
+        echo "test($1): $2"
+        git commit -m "test($1): $2"
+    fi
+fi
