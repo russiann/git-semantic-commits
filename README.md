@@ -1,3 +1,14 @@
+## Installation:
+
+1. Clone this repo, prefferably in your $HOME directory.
+``` git clone https://github.com/russian60/git-semantic-commits ~/.git-semantic-commits ```
+
+2. Add the folder to your $PATH.
+  * if using Bash, open ```~/.bashrc``` with your favourite editor and add this line: <br/> ``` export PATH=$PATH:$HOME/.git-semantic-commits:$PATH ```
+  * if using Zsh, open ```~/.zshrc``` with your favourite editor and add this line: <br/>  ``` export PATH=$PATH:$HOME/.git-semantic-commits:$PATH ```
+
+3. Save the file and source the changes in bashrc/zshrc: ```source ~/.bashrc``` or ```source ~/.zshrc```
+4. Done! grin emoticon
 
 Commands:
 
