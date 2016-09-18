@@ -1,0 +1,30 @@
+{
+  "name": "git-semantic-commits",
+  "version": "1.0.1",
+  "description": "Semantic Commits Msg for GIT",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./install.sh",
+    "preuninstall": "./uninstall.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russiann/git-semantic-commits.git"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "semantic",
+    "karma",
+    "message",
+    "commits",
+    "convention",
+    "pattern"
+  ],
+  "author": "Russian Rebouças",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/russiann/git-semantic-commits/issues"
+  },
+  "homepage": "https://github.com/russiann/git-semantic-commits#readme"
+}
